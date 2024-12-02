@@ -3,7 +3,7 @@ from api_secrets import API_KEY_ASSEMBLYAI
 import os
 import assemblyai as aai
 
-## Imput File Setup
+## Input File Setup
 # assign directory
 directory = ''
 
@@ -66,6 +66,6 @@ for filename in os.listdir(directory):
 
             for match in matches:
                 print(f"Found '{match.text}' {match.count} times in the transcript")
-
-# Let user know process is complete
-print(f'done transcribing: transcription found in {out}')
+             
+    # Let user know process is complete
+    print(f'done transcribing: transcription found in {out}')
