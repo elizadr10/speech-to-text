@@ -1,5 +1,5 @@
 # Speech-to-Text
-built using AssemblyAI's API for Speech Recognition and Speaker Diarization
+Transcribes a folder of audio files into a collection of output files. Built using AssemblyAI's API for Speech Recognition and Speaker Diarization
 
 ### api_secrets.py
 - API_KEY_ASSEMBLYAI = your api key
